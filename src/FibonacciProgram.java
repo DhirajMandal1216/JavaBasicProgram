@@ -21,5 +21,4 @@ public class FibonacciProgram {
             num2=num3;
         }
     }
-
 }
