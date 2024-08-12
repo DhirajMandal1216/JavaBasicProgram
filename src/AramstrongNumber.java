@@ -22,7 +22,7 @@ public class AramstrongNumber {
             temp=num;
             while(temp>0){
                 int digit=temp%10;
-                sum= (int) (sum+Math.pow(digit,n));
+                sum= (int) (sum + Math.pow(digit,n));
                 temp=temp/10;
             }
             if(num==sum){
